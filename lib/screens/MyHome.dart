@@ -37,7 +37,7 @@ class _MyHomeState extends State<MyHome> {
           
           Container(
             margin: EdgeInsets.all(20.0),
-            child: Text("Entrez le montant à convertir dans la boîte puis cliquez sur le boutton valider", textAlign: TextAlign.center, style: TextStyle(fontFamily: "Schyler"),),
+            child: Text("Entrez le montant à convertir (en FCFA) dans la boîte puis cliquez sur le boutton valider", textAlign: TextAlign.center, style: TextStyle(fontFamily: "Schyler"),),
           ),
           
           Padding(

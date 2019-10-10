@@ -40,7 +40,7 @@ class MyIndex extends StatelessWidget {
                   color: Colors.green,
                   borderRadius: BorderRadius.circular(20.0)),
               child: Center(
-                child: Text("Continuer"),
+                child: Text("Continuer", style: TextStyle(color: Colors.white),),
               ),
             ),
           )
