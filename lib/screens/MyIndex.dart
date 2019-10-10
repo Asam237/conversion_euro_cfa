@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 class MyIndex extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       bottomNavigationBar: Container(
         margin: EdgeInsets.all(5.0),
         child: Text("Abba Sali - 2019", style: TextStyle(fontFamily: "Schyler"), textAlign: TextAlign.center,),
@@ -23,7 +25,7 @@ class MyIndex extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(20.0),
             child: Text(
-              "Convertissez gratuitement des Euro en Franc CFA !",
+              "Convertissez gratuitement des CFA en Franc EURO !",
               textAlign: TextAlign.center,
               style: TextStyle(fontFamily: "Schyler"),
             ),
