@@ -1,4 +1,5 @@
 import 'package:conversion_e_c/screens/MyHome.dart';
+import 'package:conversion_e_c/screens/sTrans.dart';
 import 'package:flutter/material.dart';
 
 class MyIndex extends StatelessWidget {
@@ -32,7 +33,7 @@ class MyIndex extends StatelessWidget {
           ),
           InkWell(
             onTap: (){
-              Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => MyHome()), (Route route) => false);
+              Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context) => MyTrans()), (Route route) => false);
             },
             child: Container(
               width: 150.0,
